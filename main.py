@@ -53,5 +53,5 @@ def discussion(max_cnt, theme):
 
 
 if __name__ == "__main__":
-    input_theme = input("AI同士で話合わせたいテーマを入力してください(例：「AIとプログラミングを使った近未来のビジネス」)：\n")
+    input_theme = input("AI同士で話合わせたいテーマを入力してください(例：「AIを活用した近未来のビジネス」)：\n")
     discussion(TALK_CNT, input_theme)
