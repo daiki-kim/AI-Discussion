@@ -15,7 +15,7 @@ class AI:
             model=self.model,
             messages=[
                 {"role": "system", "content": "あなたはユーザーが出したお題についての考えを述べるものです。"},
-                {"role": "user", "content": f"「{theme}」というテーマについてあなたのアイデアを200文字以内で答えてください。"}
+                {"role": "user", "content": f"「{theme}」というテーマについて面白いアイデアを200文字以内で出してください。"}
             ]
         )
         # chatGPTの回答
